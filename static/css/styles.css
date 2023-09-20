@@ -1,0 +1,13 @@
+.profile-image {
+    width: 100px;   
+    height: 100px;  
+    border-radius: 50%;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+    height: 100vh;           /* 视窗的高度，确保容器充满整个视窗 */
+}
+

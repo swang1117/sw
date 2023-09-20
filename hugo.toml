@@ -1,0 +1,46 @@
+baseURL = 'https://swang1117.github.io/sw/'
+languageCode = 'en-us'
+title = "Shiqi's Website"
+theme = 'PaperMod'
+
+[params]
+  profileImage = "/profile.jpg"
+
+  [params.homeInfoParams]
+    Title = "Hey, I'm Shiqi Wang \U0001F44B"
+    Content = "A Master's candidate in Business Analytics at Tulane University with a Specialization in Energy"
+
+  [[params.socialIcons]]
+    name = "cv"
+    url = "Resume.pdf"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto: swang44@tulane.edu"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/shiqiwang1117/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/swang1117"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "project"
+    name = "Project"
+    url = "/project/"
+    weight = 30
